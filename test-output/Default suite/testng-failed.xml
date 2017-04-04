@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Testscript.script_Search">
+      <class name="Testscript.script_Login">
         <methods>
-          <include name="cloaseApp"/>
-          <include name="launchApp"/>
-          <include name="Invalid_Search" invocation-numbers="0"/>
+          <include name="create_Report"/>
+          <include name="valid_Login"/>
+          <include name="invalid_Login"/>
         </methods>
-      </class> <!-- Testscript.script_Search -->
+      </class> <!-- Testscript.script_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

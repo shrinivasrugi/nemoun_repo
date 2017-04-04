@@ -23,14 +23,7 @@
     <version>2.53.0</version>
 </dependency>
 
-       <dependency>
-    <groupId>com.microsoft.sqlserver</groupId>
-    <artifactId>sqljdbc4</artifactId>
-    <version>4.0</version>
-    <scope>system</scope>
-    <systemPath>C:\\sqljdbc_4.0\\enu\\sqljdbc4.jar</systemPath>
-    <optional>true</optional>
-</dependency>
+ 
   
   <dependency>
             <groupId>org.apache.poi</groupId>

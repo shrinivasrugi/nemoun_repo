@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Smk"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Testscript.script_Search">
-        <methods>
-          <include name="Invalid_Search"/>
-        </methods>
-      </class> <!-- Testscript.script_Search -->
       <class name="Testscript.script_Login">
         <methods>
           <include name="create_Report"/>
           <include name="valid_Login"/>
+          <include name="invalid_Login"/>
         </methods>
       </class> <!-- Testscript.script_Login -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
