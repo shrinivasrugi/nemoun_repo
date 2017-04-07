@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37064" started-at="2017-04-04T12:12:22Z" finished-at="2017-04-04T12:12:59Z">
+  <suite name="Suite" duration-ms="449485" started-at="2017-04-07T11:32:43Z" finished-at="2017-04-07T11:40:12Z">
     <groups>
       <group name="Smk">
         <method signature="script_Login.valid_Login(java.util.Map)[pri:1, instance:Testscript.script_Login@62ee68d8]" name="valid_Login" class="Testscript.script_Login"/>
@@ -12,13 +12,13 @@
         <method signature="script_Search.Invalid_Search(java.util.Map)[pri:4, instance:Testscript.script_Search@735b5592]" name="Invalid_Search" class="Testscript.script_Search"/>
       </group> <!-- Reg -->
     </groups>
-    <test name="Test" duration-ms="37064" started-at="2017-04-04T12:12:22Z" finished-at="2017-04-04T12:12:59Z">
+    <test name="Test" duration-ms="449485" started-at="2017-04-07T11:32:43Z" finished-at="2017-04-07T11:40:12Z">
       <class name="Testscript.script_Login">
-        <test-method status="PASS" signature="create_Report()[pri:0, instance:Testscript.script_Login@62ee68d8]" name="create_Report" is-config="true" duration-ms="127" started-at="2017-04-04T17:42:22Z" finished-at="2017-04-04T17:42:22Z">
+        <test-method status="PASS" signature="create_Report()[pri:0, instance:Testscript.script_Login@62ee68d8]" name="create_Report" is-config="true" duration-ms="484" started-at="2017-04-07T17:02:42Z" finished-at="2017-04-07T17:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_Report -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:Testscript.script_Login@62ee68d8]" name="launchApp" is-config="true" duration-ms="7599" started-at="2017-04-04T17:42:23Z" finished-at="2017-04-04T17:42:30Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:Testscript.script_Login@62ee68d8]" name="launchApp" is-config="true" duration-ms="405008" started-at="2017-04-07T17:02:44Z" finished-at="2017-04-07T17:09:29Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="valid_Login(java.util.Map)[pri:1, instance:Testscript.script_Login@62ee68d8]" name="valid_Login" duration-ms="3427" started-at="2017-04-04T17:42:30Z" data-provider="validLogin" finished-at="2017-04-04T17:42:34Z">
+        <test-method status="PASS" signature="valid_Login(java.util.Map)[pri:1, instance:Testscript.script_Login@62ee68d8]" name="valid_Login" duration-ms="12355" started-at="2017-04-07T17:09:29Z" data-provider="validLogin" finished-at="2017-04-07T17:09:42Z">
           <params>
             <param index="0">
               <value>
@@ -40,13 +40,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_Login -->
-        <test-method status="PASS" signature="cloaseApp()[pri:0, instance:Testscript.script_Login@62ee68d8]" name="cloaseApp" is-config="true" duration-ms="536" started-at="2017-04-04T17:42:34Z" finished-at="2017-04-04T17:42:34Z">
+        <test-method status="PASS" signature="cloaseApp()[pri:0, instance:Testscript.script_Login@62ee68d8]" name="cloaseApp" is-config="true" duration-ms="954" started-at="2017-04-07T17:09:42Z" finished-at="2017-04-07T17:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cloaseApp -->
       </class> <!-- Testscript.script_Login -->
       <class name="Testscript.script_Search">
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:Testscript.script_Search@735b5592]" name="launchApp" is-config="true" duration-ms="6168" started-at="2017-04-04T17:42:34Z" finished-at="2017-04-04T17:42:41Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:Testscript.script_Search@735b5592]" name="launchApp" is-config="true" duration-ms="7405" started-at="2017-04-07T17:09:43Z" finished-at="2017-04-07T17:09:50Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="Invalid_Search(java.util.Map)[pri:4, instance:Testscript.script_Search@735b5592]" name="Invalid_Search" duration-ms="18153" started-at="2017-04-04T17:42:41Z" data-provider="invalidSearch" finished-at="2017-04-04T17:42:59Z">
+        <test-method status="PASS" signature="Invalid_Search(java.util.Map)[pri:4, instance:Testscript.script_Search@735b5592]" name="Invalid_Search" duration-ms="21574" started-at="2017-04-07T17:09:50Z" data-provider="invalidSearch" finished-at="2017-04-07T17:10:12Z">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Search -->
-        <test-method status="PASS" signature="cloaseApp()[pri:0, instance:Testscript.script_Search@735b5592]" name="cloaseApp" is-config="true" duration-ms="109" started-at="2017-04-04T17:42:59Z" finished-at="2017-04-04T17:42:59Z">
+        <test-method status="PASS" signature="cloaseApp()[pri:0, instance:Testscript.script_Search@735b5592]" name="cloaseApp" is-config="true" duration-ms="170" started-at="2017-04-07T17:10:12Z" finished-at="2017-04-07T17:10:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cloaseApp -->
